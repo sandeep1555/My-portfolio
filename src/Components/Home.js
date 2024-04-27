@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
-const Home = () => {
+const Home = ({ref}) => {
+
   return (
-    <div className="flex items-center">
+    <div id="home" ref={ref} className="flex items-center">
     <div className='ml-16 my-16 '>
 
-       <div className='w-6/12 m-4 '>
+       <div className='w-6/12 m-4 mt-[150px] '>
 
         <h1 className='text-5xl font-bold py-4'>Hi,I am Sandeep</h1>
         <h1 className='text-5xl font-bold py-4'>Front-End Developer</h1>
@@ -13,10 +14,10 @@ const Home = () => {
        </div>
 
 
-       <div className='flex items-center m-4 w-6/12'>
+       <div className='flex items-center mx-6 my-4  w-6/12 '>
       <a className='cursor-pointer hover:scale-125' href="https://leetcode.com/sandeep555"> <img  className='w-[40px] h-[40px] mx-2' alt="Leetcode Logo" src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png?f=webp"/></a>
       <a className='cursor-pointer hover:scale-125' href="https://github.com/sandeep1555"><img  className='w-[40px] h-[40px] mx-2' alt="Github Logo" src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png"/></a>
-      <a className='cursor-pointer hover:scale-125' href="https://www.linkedin.com/in/sandeep-dasari555/"><img  className='w-[60px] h-[60px] mx-2'  alt='LinkedIn logo' src="https://static.vecteezy.com/system/resources/thumbnails/018/910/721/small/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg"/></a>
+      <a className='cursor-pointer hover:scale-125' href="https://www.linkedin.com/in/sandeep-dasari555/"><img  className='w-[40px] h-[40px] mx-2'  alt='LinkedIn logo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"/></a>
        </div>
 
        <div className='w-6/12'>

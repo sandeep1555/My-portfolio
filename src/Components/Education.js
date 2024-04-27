@@ -1,13 +1,15 @@
 import React from 'react'
 
 const Education = () => {
-  return (<div className='m-28 shadow-lg p-4 bg-white'>
+  return (
+    <div id="education" className='p-2'> 
+  <div  className='mx-28 mt-32 shadow-lg p-4 bg-white rounded-lg'>
     <h1 className='text-3xl font-bold my-8 text-center  m-4'>Education</h1>
     <div className=' relative flex items-center justify-center'>
     
         
         
-        <div className='border-l-4  mx-10 h-[330px] border-black '>
+        <div className='border-l-4  mx-10 h-[330px] border-black  before:'>
         </div>
         <div>
         <div className='p-4 m-4'>
@@ -28,6 +30,7 @@ const Education = () => {
         </div>
             
         
+    </div>
     </div>
     </div>
   )
