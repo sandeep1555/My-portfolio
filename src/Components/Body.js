@@ -11,7 +11,7 @@ const Body = () => {
 
  
   return (
-    <div className='bg-blue-200'> 
+    <div className='bg-blue-200 font-mono'> 
 <Home ref={home}/>
 <Skills/>
 <Education/>

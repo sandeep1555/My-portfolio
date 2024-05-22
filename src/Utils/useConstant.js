@@ -12,7 +12,7 @@ export const skills=[
     url:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
 },
 {
-    name:"Tailwind CSS",
+    name:"TailwindCSS",
     url:"https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
 },
 {
