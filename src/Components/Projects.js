@@ -41,10 +41,10 @@ const handlePreviousButton=()=>
           
 
             
-             <div className='border w-9/12 rounded-lg shadow-lg m-2 bg-white pb-4'>
+             <div className='border w-11/12 rounded-lg shadow-lg m-2 bg-white pb-4'>
              <h1 className='text-center m-8 font-bold text-black font-bold text-3xl font-mono'>NETFLIX-GPT</h1>
               <div className='relative flex  justify-center m-4'>
-              <button className=' absolute left-0 top-[45%] bg-black rounded-full ml-[45px]  text-white' onClick={handlePreviousButton}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+              <button className=' absolute left-0 top-[45%] bg-black rounded-full ml-[142px]  text-white' onClick={handlePreviousButton}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
   <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
 </button>
@@ -53,7 +53,7 @@ const handlePreviousButton=()=>
                 <img alt='project-pic' className={' border h-[400px] rounded-lg object- '+(ActiveImg===i ? "block" :"hidden" )}src={img}/>
               ))}
               
-              <button className='absolute right-0 top-[45%] bg-black rounded-full mr-[45px]  text-white' onClick={handleNextButton}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+              <button className='absolute right-0 top-[45%] bg-black rounded-full mr-[142px]  text-white' onClick={handleNextButton}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
   <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
 </button>
@@ -68,6 +68,15 @@ const handlePreviousButton=()=>
                         <li className='bg-gray-200 px-2 py-1 m-2 rounded-lg'>Redux</li>
                     </ul>
                 </div>
+
+                <div className='mx-6'>
+  <h1 className='text-bold text-2xl'>About Project:</h1>
+  <ul className='mx-14 my-6 list-disc'>
+    <li className='my-2'>I crafted a Netflix-inspired web application utilizing ReactJS for frontend development, Redux to man- age state, Firebase for backend support, and Tailwind CSS for styling.</li>
+    <li className='my-2'>The primary objective was to emulate key features of the Netflix platform, encompassing user authen- tication, seamless movie browsing, and immersive video playback experiences.</li>
+    <li className='my-2'>Integrated OpenAI's GPT-3 to provide personalized movie recommendations and interactive conversational features.</li>
+  </ul>
+</div>
                 <div className='flex justify-center'>
                 <button className='flex  bg-sky-700 text-white py-2 px-2 h-[50px] w-[150px] items-center rounded-lg justify-between m-2 '><a href='https://github.com/sandeep1555/Netflix-GPT'>Source code </a> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
@@ -79,6 +88,8 @@ const handlePreviousButton=()=>
 </button>
 
 </div>
+
+
              </div>
         </div>
     </div>

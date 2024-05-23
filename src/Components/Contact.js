@@ -2,7 +2,6 @@ import React, {  useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 const Contact = () => {
   const [name,setName]=useState(null);
-const form=useRef();
 
  const [email,setEmail]=useState(null);
  const [message,setmessage]=useState(null);
@@ -10,12 +9,8 @@ const form=useRef();
  const [errorMessge,setErroeMessage]=useState(null);
 
  const emailInfo={from_name:name,email:email,message:message}
- console.log(emailInfo)
   const handleClickSubmit=()=>
   {
-    console.log(emailInfo)
-  
-   
     emailjs.send('service_sandeep', 'template_46k6ig6', emailInfo,{
       publicKey: 'm9cy0OeIkdx_JgRA_',
     }).then(
@@ -31,7 +26,7 @@ const form=useRef();
   }
   return (
    <div id="contact" className='p-2 font-mono text-black'>
-    <div   className='bg-sky-700 my-32 p  px-14 pt-14 mx-28 rounded-lg'>
+    <div   className='bg-sky-600 my-32 p  px-14 pt-14 mx-28 rounded-lg'>
   <h1 className='text-center text-5xl text-white'>Contact</h1>
 
   <div className='flex'>
@@ -42,7 +37,7 @@ const form=useRef();
 like to say hello, send me a message. I'd love to hear from you.</p>
 </div>
 
-<form ref={form} onSubmit={(e)=> e.preventDefault()} className='m-4 '>
+<form onSubmit={(e)=> e.preventDefault()} className='m-4 '>
     <div className='flex flex-col w-[450px]'>
     <label className='text-white '>Name</label>
     <input onChange={(e)=>setName(e.target.value)}  className='p-2 rounded-lg my-1 mb-4' type="text" placeholder='Enter your name'/>
@@ -64,7 +59,7 @@ like to say hello, send me a message. I'd love to hear from you.</p>
 
      </div>
      {errorMessge && <p className='text-lg text-white my-2 py-4'>{errorMessge}</p>}
-     <h1 class="px-2 py-4  rounded-md text-white">Email me Directly,<a className='text-blue-200' href='mailto:19003071cse@gmail.com' c>click here</a></h1>
+     <h1 class="px-2 py-4  rounded-md text-white">Email me Directly,<a className='text-blue-300' href='mailto:19003071cse@gmail.com' c>click here</a></h1>
   
 </form>
   </div>
@@ -79,9 +74,9 @@ like to say hello, send me a message. I'd love to hear from you.</p>
     
     <h1 className="text-3xl font-bold p-2 pt-10">SOCIAL</h1>
     <div className='flex items-center my-4 w-6/12 ml-[380px]'>
-      <a className='cursor-pointer hover:scale-125' href="https://leetcode.com/sandeep555"> <img  className='w-[40px] h-[40px] mx-2' alt="Leetcode Logo" src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png?f=webp"/></a>
-      <a className='cursor-pointer hover:scale-125 ' href="https://github.com/sandeep1555"><img  className='w-[40px] h-[40px] mx-2' alt="Github Logo" src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png"/></a>
-      <a className='cursor-pointer hover:scale-125' href="https://www.linkedin.com/in/sandeep-dasari555/"><img  className='w-[40px] h-[40px] mx-2'  alt='LinkedIn logo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"/></a>
+      <a className='cursor-pointer hover:scale-125' href="https://leetcode.com/sandeep555"> <img  className='w-[40px] h-[40px] mx-2' alt="Leetcode Logo" src={"/images/leetcode-logo.png"}/></a>
+      <a className='cursor-pointer hover:scale-125 ' href="https://github.com/sandeep1555"><img  className='w-[40px] h-[40px] mx-2' alt="Github Logo" src={"/images/github-logo.png"}/></a>
+      <a className='cursor-pointer hover:scale-125' href="https://www.linkedin.com/in/sandeep-dasari555/"><img  className='w-[40px] h-[40px] mx-2'  alt='LinkedIn logo' src={"/images/linkedin-logo.png"}/></a>
        </div>
 </div>
 </div>

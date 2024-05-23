@@ -6,7 +6,7 @@ const Skills = () => {
     
   return (
     <div id="skills" className='p-2'>
-    <div className='flex  flex-col justify-center items-center mx-24 mt-11 shadow-lg pb-8  bg-sky-700 rounded-lg'>
+    <div className='flex  flex-col justify-center items-center mx-24 mt-11 shadow-lg pb-8  bg-sky-600 rounded-lg'>
 
     <div className=''>
     <h1 className='text-3xl font-bold my-8 text-center m-4 text-white'>Skills</h1>
