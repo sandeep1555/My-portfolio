@@ -11,12 +11,14 @@ const Body = () => {
 
  
   return (
-    <div className='bg-blue-200 font-mono'> 
+    <div className='bg-sky-300 font-mono'> 
 <Home ref={home}/>
+
 <Skills/>
 <Education/>
-<Projects/>
 <AboutMe/>
+<Projects/>
+
 <Contact/>
 <h1 className='text-center font-bold '>Made with love by sandeep</h1>
     </div>

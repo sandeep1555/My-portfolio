@@ -4,9 +4,9 @@ const Home = ({ref}) => {
 
   return (
     <div id="home" ref={ref} className="flex items-center">
-    <div className='ml-16 my-16 '>
+    <div className='ml-16 my-16 animate-fade-right '>
 
-       <div className='w-7/12 m-4 mt-[150px] '>
+       <div className='w-7/12 m-4 mt-[150px]  '>
 
         <h1 className='text-5xl font-bold py-4'>Hi,I am Sandeep</h1>
         <h1 className='text-5xl font-bold py-4'>Front-End Developer</h1>
@@ -21,7 +21,7 @@ const Home = ({ref}) => {
        </div>
 
        <div className='w-6/12'>
-        <button className=' m-2 mx-10 bg-blue-500 text-white px-8 py-3 rounded-lg '><a href='https://drive.google.com/file/d/1RIYqBcwmm7pe3vuKzlqL3oV5FteLTlLZ/view'>Resume</a></button>
+        <button className=' my-8 mx-8 bg-sky-700 text-white px-14 py-4 rounded-lg '><a href='https://drive.google.com/file/d/1RIYqBcwmm7pe3vuKzlqL3oV5FteLTlLZ/view'>Resume</a></button>
        </div>
 
        </div>

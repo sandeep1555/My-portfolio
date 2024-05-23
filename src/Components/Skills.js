@@ -6,10 +6,10 @@ const Skills = () => {
     
   return (
     <div id="skills" className='p-2'>
-    <div className='flex  flex-col justify-center items-center mx-24 mt-32 shadow-lg pb-8  bg-gray-300 rounded-lg'>
+    <div className='flex  flex-col justify-center items-center mx-24 mt-11 shadow-lg pb-8  bg-sky-700 rounded-lg'>
 
     <div className=''>
-    <h1 className='text-3xl font-bold my-8 text-center m-4'>Skills</h1>
+    <h1 className='text-3xl font-bold my-8 text-center m-4 text-white'>Skills</h1>
     </div>
         <div className='items-center ml-[54px] '>
             <ul className='flex flex-wrap  '>
