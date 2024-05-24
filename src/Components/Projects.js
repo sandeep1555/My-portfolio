@@ -72,8 +72,8 @@ const handlePreviousButton=()=>
                 <div className='mx-6'>
   <h1 className='text-bold text-2xl'>About Project:</h1>
   <ul className='mx-14 my-6 list-disc'>
-    <li className='my-2'>I crafted a Netflix-inspired web application utilizing ReactJS for frontend development, Redux to man- age state, Firebase for backend support, and Tailwind CSS for styling.</li>
-    <li className='my-2'>The primary objective was to emulate key features of the Netflix platform, encompassing user authen- tication, seamless movie browsing, and immersive video playback experiences.</li>
+    <li className='my-2'>I crafted a Netflix-inspired web application utilizing ReactJS for frontend development, Redux to manage state, Firebase for backend support, and Tailwind CSS for styling.</li>
+    <li className='my-2'>The primary objective was to emulate key features of the Netflix platform, encompassing user authentication, seamless movie browsing, and immersive video playback experiences.</li>
     <li className='my-2'>Integrated OpenAI's GPT-3 to provide personalized movie recommendations and interactive conversational features.</li>
   </ul>
 </div>
