@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { RESUME_URL } from '../Utils/useConstant'
 
 const Home = ({ref}) => {
 
@@ -21,7 +22,7 @@ const Home = ({ref}) => {
        </div>
 
        <div className='w-6/12'>
-        <button className=' my-8 mx-8 bg-sky-700 text-white px-14 py-4 rounded-lg '><a href='https://drive.google.com/file/d/1aKbMVW0c9PXG9GCXVL7BXvpzAevZPfe4/view?usp=sharing'>Resume</a></button>
+        <button className=' my-8 mx-8 bg-sky-700 text-white px-14 py-4 rounded-lg '><a href={RESUME_URL}>Resume</a></button>
        </div>
 
        </div>

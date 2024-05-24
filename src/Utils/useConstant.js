@@ -68,3 +68,5 @@ export const Firebase="https://www.vectorlogo.zone/logos/firebase/firebase-icon.
 export const  MySQL="https://www.svgrepo.com/show/303251/mysql-logo.svg"
 
 export const BootStrap="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+
+export const RESUME_URL="https://drive.google.com/file/d/1aKbMVW0c9PXG9GCXVL7BXvpzAevZPfe4/view?usp=sharing"
