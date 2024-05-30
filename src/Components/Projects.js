@@ -78,11 +78,11 @@ const handlePreviousButton=()=>
   </ul>
 </div>
                 <div className='flex justify-center'>
-                <button className='flex  bg-sky-700 text-white py-2 px-2 h-[50px] w-[150px] items-center rounded-lg justify-between m-2 '><a href='https://github.com/sandeep1555/Netflix-GPT'>Source code </a> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <button className='flex  bg-sky-700 text-white py-2 px-2 h-[50px] w-[150px] items-center rounded-lg justify-between m-2 '><a href='https://github.com/sandeep1555/Netflix-GPT' target="_blank" rel="noopener noreferrer">Source code </a> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
 </svg>
 </button>
-                <button className='flex  bg-sky-700 text-white p-2 h-[50px] w-[150px] items-center rounded-lg justify-between m-2 '><a href='https://netflix-gpt-pi-jet.vercel.app/'>Live Demo </a> <svg className='w-[30px] h-[30px]' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <button className='flex  bg-sky-700 text-white p-2 h-[50px] w-[150px] items-center rounded-lg justify-between m-2 '><a href='https://netflix-gpt-pi-jet.vercel.app/' target="_blank" rel="noopener noreferrer">Live Demo </a> <svg className='w-[30px] h-[30px]' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
 </svg>
 </button>

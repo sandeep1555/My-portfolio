@@ -83,9 +83,9 @@ like to say hello, send me a message. I'd love to hear from you.</p>
     
     <h1 className="text-3xl font-bold p-2 pt-10">SOCIAL</h1>
     <div className='flex items-center my-4  ml-[380px]'>
-      <a className='cursor-pointer hover:scale-125' href="https://leetcode.com/sandeep555"> <img  className='w-[40px] h-[40px] mx-2' alt="Leetcode Logo" src={"/images/leetcode-logo.png"}/></a>
-      <a className='cursor-pointer hover:scale-125 ' href="https://github.com/sandeep1555"><img  className='w-[40px] h-[40px] mx-2' alt="Github Logo" src={"/images/github-logo.png"}/></a>
-      <a className='cursor-pointer hover:scale-125' href="https://www.linkedin.com/in/sandeep-dasari555/"><img  className='w-[40px] h-[40px] mx-2'  alt='LinkedIn logo' src={"/images/linkedin-logo.png"}/></a>
+      <a className='cursor-pointer hover:scale-125' href="https://leetcode.com/sandeep555" target="_blank" rel="noopener noreferrer"> <img  className='w-[40px] h-[40px] mx-2' alt="Leetcode Logo" src={"/images/leetcode-logo.png"}/></a>
+      <a className='cursor-pointer hover:scale-125 ' href="https://github.com/sandeep1555" target="_blank" rel="noopener noreferrer"><img  className='w-[40px] h-[40px] mx-2' alt="Github Logo" src={"/images/github-logo.png"}/></a>
+      <a className='cursor-pointer hover:scale-125' href="https://www.linkedin.com/in/sandeep-dasari555/" target="_blank" rel="noopener noreferrer"><img  className='w-[40px] h-[40px] mx-2'  alt='LinkedIn logo' src={"/images/linkedin-logo.png"}/></a>
        </div>
 </div>
 </div>

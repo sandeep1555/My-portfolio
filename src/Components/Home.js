@@ -16,13 +16,13 @@ const Home = ({ref}) => {
 
 
        <div className='flex items-center mx-6 my-4  w-6/12 '>
-      <a className='cursor-pointer hover:scale-125' href="https://leetcode.com/sandeep555"> <img  className='w-[40px] h-[40px] mx-2' alt="Leetcode Logo" src={"/images/leetcode-logo.png"}/></a>
-      <a className='cursor-pointer hover:scale-125' href="https://github.com/sandeep1555"><img  className='w-[40px] h-[40px] mx-2' alt="Github Logo" src={"/images/github-logo.png"}/></a>
-      <a className='cursor-pointer hover:scale-125' href="https://www.linkedin.com/in/sandeep-dasari555/"><img  className='w-[40px] h-[40px] mx-2'  alt='LinkedIn logo' src={"/images/linkedin-logo.png"}/></a>
+      <a className='cursor-pointer hover:scale-125' href="https://leetcode.com/sandeep555" target="_blank" rel="noopener noreferrer"> <img  className='w-[40px] h-[40px] mx-2' alt="Leetcode Logo" src={"/images/leetcode-logo.png"}/></a>
+      <a className='cursor-pointer hover:scale-125' href="https://github.com/sandeep1555" target="_blank" rel="noopener noreferrer"><img  className='w-[40px] h-[40px] mx-2' alt="Github Logo" src={"/images/github-logo.png"}/></a>
+      <a className='cursor-pointer hover:scale-125' href="https://www.linkedin.com/in/sandeep-dasari555/" target="_blank" rel="noopener noreferrer"><img  className='w-[40px] h-[40px] mx-2'  alt='LinkedIn logo' src={"/images/linkedin-logo.png"}/></a>
        </div>
 
        <div className='w-6/12'>
-        <button className=' my-8 mx-8 bg-sky-700 text-white px-14 py-4 rounded-lg '><a href={RESUME_URL}>Resume</a></button>
+        <button className=' my-8 mx-8 bg-sky-700 text-white px-14 py-4 rounded-lg '><a href={RESUME_URL} target="_blank" rel="noopener noreferrer">Resume</a></button>
        </div>
 
        </div>
